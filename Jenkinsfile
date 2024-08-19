@@ -15,6 +15,7 @@ pipeline {
 				echo "Path: $PATH"
 				echo "Build Number: $env.BUILD_NUMBER"
 				echo "Build ID: $env.BUILD_ID"
+				echo "Build Tag: $env.BUILD_TAG"
 				echo "Build URL: $env.BUILD_URL"
 				echo "Job Name: $env.JOB_NAME"
 			}
